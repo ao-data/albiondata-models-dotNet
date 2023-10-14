@@ -27,7 +27,8 @@ namespace AlbionData.Models
       {Location.FortSterling, "Fort Sterling" },
       {Location.FortSterlingPortal, "Fort Sterling Portal" },
       {Location.MountainCross, "Mountain Cross" },
-      {Location.ArthursRest, "Arthurs Rest" }
+      {Location.ArthursRest, "Arthurs Rest" },
+      {Location.Brecilien, "Brecilien" }
     };
 
     public static string GetName(Location location)
@@ -67,6 +68,7 @@ namespace AlbionData.Models
     FortSterling = 4002,
     FortSterlingPortal = 4301,
     MountainCross = 4006,
-    ArthursRest = 4300
+    ArthursRest = 4300,
+    Brecilien = 5003
   }
 }
